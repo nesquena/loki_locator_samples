@@ -7,5 +7,5 @@ document.observe('dom:loaded', function(){
 	    alert('An error has been encountered ('+error+'). '+msg);
 	  };
 	  loki.setKey('beta');
-	  loki.requestLocation(true,loki.FULL_STREET_ADDRESS_LOOKUP);
+	  loki.requestLocation(true, loki.FULL_STREET_ADDRESS_LOOKUP);
 });
